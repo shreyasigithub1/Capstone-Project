@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+
+    <!-- Linking the stylesheet -->
+    <link rel="Stylesheet" href="css/index.css" />
+    <!-- Bootstrap CDN links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome link -->
+
+    <script
+      src="https://kit.fontawesome.com/470799a92f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header/Navbar -->
+    <header>
+      <div class="container">
+        <nav class="main-nav">
+          <!-- logo div -->
+          <div class="logo">
+            <img src="assets/images/logo.jpg" alt="logo" />
+          </div>
+          <ul class="nav-list">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact-us">Contact Support</a></li>
+          </ul>
+          <!-- Hamburger menu for small screen -->
+          <div class="hamburger-menu">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbar-list"
+              aria-controls="navbar-list"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fa-solid fa-bars fs-5"></i>
+            </button>
+          </div>
+        </nav>
+      </div>
+      <!-- Collapsible navigation -->
+      <div class="collapse navbar-collapse bg-dark" id="navbar-list">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white text-center" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-center" href="#services"
+              >Services</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-center" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-center" href="#testimonials"
+              >Testimonials</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white text-center" href="#contact"
+              >Contact Support</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Hero section -->
+
+    <section class="hero">
+      <div class="hero-text">
+        <h2>
+          Best <em>EdTech</em> Company<br />
+          &amp; Programming <em>Services</em>
+        </h2>
+        <div class="divider"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          sapiente non ea doloremque voluptas ratione explicabo quisquam sed
+          sint asperiores nemo totam tempora eum voluptates, eveniet minima
+          reiciendis deserunt possimus.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <div class="container">
+      <section class="row services" id="services">
+        <div class="col-12">
+          <div class="section-heading">
+            <h6>Services</h6>
+            <h4>Learn Skills</h4>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-book"></i>
+            <h4>Interactive Platform</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi,
+              impedit.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-code"></i>
+            <h4>Doubt support</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-computer-mouse"></i>
+            <h4>Interactive Coding Challenges</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-tablet"></i>
+            <h4>Mobile and Tablet Coding</h4>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
+              soluta.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-archway"></i>
+            <h4>Support for Coding Enthusiasts</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime,
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="service-item">
+            <i class="fa-solid fa-puzzle-piece"></i>
+            <h4>Customisable Coding Experience</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Banner -->
+    <div class="container-fluid banner-div">
+      <section class="row banner">
+        <div class="col-lg-5 col-md-12">
+          <h4>
+            Coding <em>Solutions</em> and <strong>Programming</strong> Mastery
+          </h4>
+        </div>
+        <div class="col-lg-7 col-md-12">
+          <div class="buttons">
+            <div class="btn btn1">
+              <a href="#about">Discover More</a>
+            </div>
+            <div class="btn btn2">
+              <a href="#contact">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- About Us -->
+    <div class="container-fluid">
+      <section class="row about-us" id="about">
+        <div class="col-12">
+          <div class="section-heading">
+            <h6>About us</h6>
+            <h4>Know us better</h4>
+          </div>
+          <div class="details">
+            <div class="btn btn-warning">
+              <span>Coding Courses</span>
+            </div>
+            <ul class="course-list">
+              <li class="list-head bg-dark-subtle d-none d-md-flex">
+                <span>Course Title</span>
+                <span>Duration</span>
+                <span>Level</span>
+                <span>Instructor</span>
+              </li>
+              <li>
+                <span class="item-title">Web development Basics</span>
+                <span>3 months</span>
+                <span>Beginner</span>
+                <span>John Doe</span>
+              </li>
+              <li class="bg-dark-subtle">
+                <span class="item-title">Advanced Javascript</span>
+                <span>4 months</span>
+                <span>Intermediate</span>
+                <span>Jane smith</span>
+              </li>
+              <li>
+                <span class="item-title">Data Structure</span>
+                <span>6 months</span>
+                <span>Advanced</span>
+                <span>Chris William</span>
+              </li>
+              <li class="bg-dark-subtle">
+                <span class="item-title">Full Stack Development</span>
+                <span>8 months</span>
+                <span>Expert</span>
+                <span>Emily Jones</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Learning Plan form -->
+    <div class="container-fluid">
+      <section class="learning-form">
+        <div class="row align-items-center">
+          <!-- first column with image -->
+          <div class="col-sm-6 image-div">
+            <img src="../Capstone Project/assets/images/pic.png" />
+          </div>
+          <!-- 2nd column with heading and form -->
+          <div class="col-sm-6">
+            <div class="section-heading">
+              <h6>Your Coding Journey</h6>
+              <h4 style="color: var(--bg-color)">Create a Learing Plan</h4>
+            </div>
+            <!-- The form -->
+            <form>
+              <div class="d-md-flex">
+                <div class="mb-3" style="flex: 1">
+                  <label for="name" class="form-label"> Your name</label>
+                  <input
+                    type="text"
+                    class="form-control bg-secondary border-secondary rounded"
+                    id="name"
+                  />
+                </div>
+                <div class="mb-3 ms-md-3" style="flex: 1">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    class="form-control bg-secondary border-secondary rounded"
+                    id="email"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="larea" class="form-label">Learning area</label>
+                <input
+                  type="text"
+                  class="form-control bg-secondary border-secondary rounded"
+                  id="larea"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="larea" class="form-label">Your Goal</label>
+                <select
+                  class="form-select bg-secondary border-secondary rounded"
+                  aria-label="Default select example"
+                >
+                  <option selected>Choose an option</option>
+                  <option value="1">Web Development Basics</option>
+                  <option value="2">Advanced Javascript</option>
+                  <option value="3">Data Structure</option>
+                  <option value="3">Fullstack Development</option>
+                </select>
+              </div>
+              <div class="d-flex button-div">
+                <button class="btn" id="button-submit">Submit now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Testimonials -->
+    <div class="container">
+      <section class="row testimonials" id="testimonials">
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h6>Testimonials</h6>
+            <h4>What our students say</h4>
+          </div>
+        </div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- Testimonial card -->
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa fa-quote-left"></i>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae cupiditate deleniti autem beatae molestiae quia
+                    velit illo! Aut, tenetur fugit?
+                  </p>
+                  <h4>Noah William</h4>
+                  <span class="subtitle">Full stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="assets/images/testimonials-02.png"
+                    alt="Noah Williams"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- Testimonial card -->
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa fa-quote-left"></i>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae cupiditate deleniti autem beatae molestiae quia
+                    velit illo! Aut, tenetur fugit?
+                  </p>
+                  <h4>Isabella Hernandez</h4>
+                  <span class="subtitle">Full stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="assets/images/testimonials-03.jpg"
+                    alt="Noah Williams"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- Testimonial card -->
+              <div class="testimonial-card">
+                <div class="content">
+                  <i class="fa fa-quote-left"></i>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repudiandae cupiditate deleniti autem beatae molestiae quia
+                    velit illo! Aut, tenetur fugit?
+                  </p>
+                  <h4>Noah William</h4>
+                  <span class="subtitle">Full stack Developer</span>
+                </div>
+                <div class="image-container">
+                  <img
+                    src="assets/images/testimonials-01.jpg"
+                    alt="Noah Williams"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </div>
+    <!-- Contact us -->
+    <div class="container">
+      <section class="contact" id="contact-us">
+        <div class="section-heading text-center">
+          <h6>Contact us</h6>
+          <h4>Let's Connect</h4>
+        </div>
+        <div class="cmap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224250.15780236194!2d76.96766247812498!3d28.572503729898933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03d1c7d6aaab%3A0x62f148aa1c4a1838!2sCoding%20Ninjas!5e0!3m2!1sen!2sin!4v1733973676005!5m2!1sen!2sin"
+            width="800"
+            height="600"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="d-flex gap-3 contactdivs">
+          <div class="cdivs d-flex flex-column justify-content-center" id="eid">
+            <i class="fa-solid fa-envelope"></i>
+            <h6>Email Address</h6>
+            <p>john.doe@codingninjas.com</p>
+          </div>
+
+          <div
+            class="cdivs d-flex flex-column justify-content-center"
+            id="phid"
+          >
+            <i class="fa-solid fa-phone"></i>
+            <h6>Phone number</h6>
+            <p>010-020-0340</p>
+          </div>
+
+          <div class="cdivs d-flex flex-column justify-content-center" id="ad">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <h6>Address</h6>
+            <p>Haryana, India</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="divide"></div>
+    <!-- Inquiry form -->
+    <div class="container iform">
+      <section class="inquiry row justify-content-center">
+        <div class="section-heading text-center col-12 ">
+          <h4>Feel Free To Inquire About Our Coding Courses</h4>
+        </div>
+        <div class="col-12">
+        <form class="row inform"  >
+          <div class="mb-3 col-lg-6">
+            <input
+              type="text"
+              class="form-control  gform bg-light text-secondary"
+              id="name"
+              placeholder="Your name"
+            />
+          </div>
+          <div class="mb-3 col-lg-6">
+            <input
+              type="number"
+              class="form-control  gform bg-light text-secondary "
+              id="phone"
+              placeholder="Your phone"
+            />
+          </div>
+          <div class="mb-3 col-lg-6">
+            <input
+              type="email"
+              class="form-control gform  bg-light text-secondary "
+              id="email"
+              placeholder="Your email"
+            />
+          </div>
+          <div class="col-lg-6">
+          <div class="input-group col-6 mb-3">
+            <span class="input-group-text" id="basic-addon3"
+              >Subject</span
+            >
+            <input
+              type="text"
+              class="form-control gform bg-light text-secondary"
+              id="basic-url"
+              aria-describedby="basic-addon3"
+            />
+          </div>
+        </div>
+          <div class="mb-3 col-12">
+            
+            
+            <textarea
+              class="form-control  bg-light text-secondary"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <button class="btn" id="message">Send message</button>
+        </div>
+        </form>
+      
+      </section>
+    </div>
+    <!-- Footer -->
+     <footer>
+      <div class="container-fluid  foot">
+        <p>Copyright &copy; 2024 Coding Ninjas Co., Ltd. All Rights Reserved.</p>
+          <p>Designed by <em>CodingNinjas</em></p>
+      </div>
+     </footer>
+  </body>
+</html>
